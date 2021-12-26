@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+  }
+  .subh1{
+    margin-bottom: 30px;
+    color: #000;
+    line-height: 1.1em;
+    letter-spacing: -.035em;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align:center;
+    font-family: Inter,sans-serif;
+    font-size: 80px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 23.45%;
+    height: 285px; 
+    margin-top: 18px;
+      margin-left: 12px;
+      margin-right: 11px;
+    border:2.5px solid black;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:50px ;
+      /* Should be removed. Only for demonstration */
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .column1 {
+   /* float: left;
+    width: 23.45%;
+    height: 50px; 
+      margin-left: 12px;
+      margin-right: 11px;*/
+      border: 2px solid black;
+      border-top-left-radius: 5px;
+      border-bottom-right-radius: 50px ;
+      position: relative;
+      bottom: -216px;
+
+      /* Should be removed. Only for demonstration */
+  }
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column1 {
+      width: 100%;
+    }
+  }
+  .design{ 
+   text-align: center;  
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+   font-size: 18px;
+   font-weight: 100;
+   padding-top: 0px;
+   margin-top: 0px;
+   
+  }
+  .design1{
+    text-align: center;  
+   font-family: Inter,sans-serif, 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+   font-size: 28px;
+   font-weight: 100;
+   padding-top: 0px;
+   margin-top: 0px;
+   margin-top: 12px; 
+   text-align:center;
+   color: #7d7c83;
+  }
+  .fa-chevron-right{
+    position: relative;
+    left: 660px;
+    color: black;
+  }
+  .fa-chevron-left{
+    position: relative;
+    left: 530px;
+    color: black;
+  }
+  .fa-chevron-circle-up{
+    position: relative;
+    left:1210px;
+    color:black;
+    font-weight: bolder;
+    font-size: 50px;
+  }
+  .copy{
+    float:right;
+    background-color: white;
+    color:black;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 20px;
+  }
+  .copy:hover{
+    background-color: salmon;
+    color: black;
+  }
+  .move{
+    float:right;
+    position: relative;
+    bottom: -155px;
+  }
